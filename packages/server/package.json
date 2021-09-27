@@ -1,0 +1,30 @@
+{
+  "name": "project-lemonde-server",
+  "version": "0.0.1",
+  "description": "Project Le Monde server",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/il-m-yamagishi/project-LeMonde1.git"
+  },
+  "author": "Masaru Yamagishi <m-yamagishi@infiniteloop.co.jp>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/il-m-yamagishi/project-LeMonde1/issues"
+  },
+  "homepage": "https://github.com/il-m-yamagishi/project-LeMonde1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/helmet": "^4.0.0",
+    "@types/node": "^16.11.10",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}

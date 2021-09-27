@@ -1,4 +1,9 @@
 {
   "name": "project-lemonde1",
-  "packageManager": "yarn@3.0.2"
+  "workspaces": [
+    "packages/server"
+  ],
+  "scripts": {
+    "start": "ts-node packages/server/src/index.ts"
+  }
 }
