@@ -1,8 +1,6 @@
 # Project Le Monde Part.1
 
-click the cat!
-
-![](sample1.png)
+![](sample2.png)
 
 ## Run
 
