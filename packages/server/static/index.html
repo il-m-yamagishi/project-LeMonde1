@@ -8,6 +8,17 @@
         <meta name="description" content="Project Le Monde Part.1"/>
         <meta name="referrer" content="origin"/>
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+
+        <meta property="og:url" content="http://localhost:8080"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="たくさんクリックされた猫" id="og_title" />
+        <meta property="og:description" content="🐈をたくさんクリックしよう"/>
+        <meta property="og:locale" content="ja-jp"/>
+        <meta property="og:image" content="/cat1.jpg"/>
+        <meta property="og:image:type" content="image/jpeg"/>
+        <meta property="og:image:width" content="640"/>
+        <meta property="og:image:height" content="426"/>
+
         <style>
             html, body {
                 margin: 0;
@@ -16,17 +27,21 @@
             body {
                 text-align: center;
             }
+            #count {
+                font-family: monospace;
+            }
             #cat {
                 border: 20px solid #fff;
                 border-radius: 20px;
                 box-shadow: 0 0 10px #111;
                 cursor: pointer;
+                max-width: 80%;
             }
         </style>
         <script module src="client.js" async defer></script>
     </head>
     <body>
-        <h1 id="title"><span id="count">0</span> 回クリックされた猫🐈</h1>
+        <h1 id="title"><span id="count">0</span>回<br />クリックされた猫🐈</h1>
         <img id="cat" src="cat1.jpg"/>
         <p>from <a href="https://www.pexels.com/ja-jp/photo/730896/">PexelsのSnapwireによる写真 CC0</a></p>
     </body>
